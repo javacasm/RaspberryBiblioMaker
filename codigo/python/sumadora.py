@@ -1,0 +1,5 @@
+print("Programa sumador de dos numeros")
+a = input("Introduzca el primer numero: ")
+b = input("Introduzca el segundo numero: ")
+c = float(a) + float(b)
+print("La suma de "+str(a)+" mas " + str(b) + " es "+str(c))
