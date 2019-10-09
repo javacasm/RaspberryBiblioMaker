@@ -1,24 +1,26 @@
-# Curso Raspberry Pi Basico
+# Curso Raspberry Pi
 
-## CEP Priego-Montilla
+## BiblioMaker de la Facultad de Ciencias
 
-Abril 2019
+Diciembre 2019
 
-![CC](./imagenes/Licencia_CC.png)
+![CC](./images/Licencia_CC.png)
 
 ## José Antonio Vacas  @javacasm
 
-## [https://github.com/javacasm/RaspberryPriego](https://github.com/javacasm/RaspberryPriego)
+## http://bit.ly/RaspiBM
 
-# General
+# RaspiFAQ
+
+## General
 
 * ¿Es openSource?
 
-	Casi sí, pero lo será
+	Casi sí, pero [lo será](http://hackaday.com/2017/01/14/blob-less-raspberry-pi-linux-is-a-step-closer/), faltan por liberar algunas partes del software del driver de video que sólo están disponibles como fichero binario (sin código fuente)
 
 * ¿De verdad cuesta 35$?
 
-	La placa sí, pero por si misma no es más que un pisapapeles Geek
+	La placa sí, pero por si misma no es más que un pisapapeles Geek, necesitamos cómo mínimo la tarjeta SD y la alimentación.
 
 * ¿Cómo la alimento?
 
@@ -28,7 +30,7 @@ Abril 2019
 
 	Depende de las pilas, con una batería externa (como las de los móviles) Sí
 
-* ¿Qué significan las luces?
+* ¿Qué significan las luces? En las versiones modernas (2 en adelante), hay un led Rojo de alimentación y uno verde de actividad del sistema. En la  V1
 
 		PWR 	5V alimentación ok
 		OK 	Acceso a la SD
@@ -47,11 +49,19 @@ Abril 2019
 
 * ¿Se rompe si le quito la alimentación?
 
-	No debería pero pudiera ocurrir si se están escribiendo muchos archivos (es un tema de probabilidad)
+	No debería romperna nada, pero pudiera ocurrir si se están escribiendo muchos archivos (es un tema de probabilidad) algunos queden corruptos y si son importantes para el sistema no arrancaría
 
 * ¿Qué versión tengo?
 
-	Podemos saber la versión de Raspberry que tenemos usando el siguiente comando
+	Podemos saber la versión de Raspberry que tenemos usando el siguiente comando en las versiones más modernas
+	
+		cat /sys/firmware/devicetree/base/model;echo
+		
+	Obtendremos ésto en una Raspi 3
+	
+		Raspberry Pi 3 Model B Rev 1.2
+		
+	También podemos usar ésto, que nos dará información sobre los procesadores
 
 		cat /proc/cpuinfo
 
@@ -78,25 +88,22 @@ Abril 2019
 		Model B Revision 1.0 + ECN0001 (no fuses, D14 removed)	0003
 		Model B Revision 2.0			0004, 0005, 0006
 
-# Cacharreo (cables)
+## Cacharreo (cables)
 
 * ¿Puedo encender y apagar un led?
 
-	Sí, pero con cuidado
+	Sí, pero con cuidado, un cortocircuito en la placa puede estropearla definitivamente.
 
 * ¿Puede controlar un motor?
 
-	No directamente, sí con una plaquita
+	No directamente, sí con una plaquita que incluya transistores o drivers
 
 * ¿Qué necesito para hacer un robot?
 
-	Una placa controladora, y motores ...
+	Una placa controladora, motores, baterías, sensores ...
 
-# Compras
 
-* ¿Dónde puedo comprar en Granada?
-
-# Administrando (¡es linux!)
+## Administrando (¡es linux!)
 
 * ¿Cuál es el usuario por defecto?
 
