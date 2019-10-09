@@ -1,14 +1,14 @@
-# Curso Raspberry Pi Basico
+# Curso Raspberry Pi
 
-## CEP Priego-Montilla
+## BiblioMaker de la Facultad de Ciencias
 
-Abril 2019
+Diciembre 2019
 
-![CC](./imagenes/Licencia_CC.png)
+![CC](./images/Licencia_CC.png)
 
 ## José Antonio Vacas  @javacasm
 
-## [https://github.com/javacasm/RaspberryPriego](https://github.com/javacasm/RaspberryPriego)
+## http://bit.ly/RaspiBM
 
 
 [proyecto iot](https://www.instructables.com/id/Build-Your-First-IOT-with-a-Raspberry-Pi-DHT11-sen/)
