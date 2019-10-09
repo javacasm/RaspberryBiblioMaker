@@ -1,13 +1,14 @@
-# RaspberryBiblioMaker
-# Curso Raspberry Pi Basico
+# Curso Raspberry Pi
 
-## CEP Priego-Montilla
+## BiblioMaker de la Facultad de Ciencias
+
+Diciembre 2019
 
 ![CC](./images/Licencia_CC.png)
 
 ## José Antonio Vacas  @javacasm
 
-## [https://github.com/javacasm/RaspberryPriego](https://github.com/javacasm/RaspberryPriego)
+## http://bit.ly/RaspiBM
 
 ## Objetivos
 
