@@ -1,21 +1,21 @@
-# Curso Raspberry Pi Basico
+# Curso Raspberry Pi
 
-## CEP Priego-Montilla
+## BiblioMaker de la Facultad de Ciencias
 
-Abril 2019
+Diciembre 2019
 
-![CC](./imagenes/Licencia_CC.png)
+![CC](./images/Licencia_CC.png)
 
 ## José Antonio Vacas  @javacasm
 
-## [https://github.com/javacasm/RaspberryPriego](https://github.com/javacasm/RaspberryPriego)
+## http://bit.ly/RaspiBM
 
 # Problemas
 
 
 ## Alimentación
 
-mínimo 1A
+mínimo 2A
 
 ## Velocidad de la tarjeta
 
@@ -23,7 +23,7 @@ Se recomienda velocidad 10
 
 ## Espacio en disco
 
-Al menos 2Gb, mejor 4Gb
+Al menos 16Gb, mejor 32Gb
 
 ## No se ve nada en el monitor
 
