@@ -1,3 +1,17 @@
+# Curso Raspberry Pi
+
+## BiblioMaker de la Facultad de Ciencias
+
+Diciembre 2019
+
+![CC](./images/Licencia_CC.png)
+
+## José Antonio Vacas  @javacasm
+
+## http://bit.ly/RaspiBM
+
+# Bot de Telegram
+
 Una de las funcionalidades más interesantes de Telegram es el uso de Bots, unos sencillos programas que permiten interactuar con dispositivos usando la plataforma de comunicaciones.
 
 Por ejemplo podemos acceder desde internet a un dispositivo que está conectado a un wifi detrás del router de casa.
