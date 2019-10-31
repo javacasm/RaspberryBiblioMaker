@@ -33,7 +33,7 @@ Raspberry Pi se ha convertido, junto con Arduino, en uno de los máximos exponen
 El ordenador Raspberry Pi se puede convertir fácilmente, por tanto, en un ordenador versátil utilizando cualquier teclado y ratón convencional USB. Además tiene un conector Ethernet para enchufarse a la red local y a Internet y una salida HDMI de vídeo. Por sus características y bajo precio, se ha convertido en una plataforma con muchísimo potencial que contribuye a desarrollar habilidades tecnológicas, promoviendo el aprendizaje de lenguajes de programación como Python, C o Perl, llevando el mundo de la programación a todo aquel que tenga interés en aprender, experimentar y realizar sus propios proyectos.
 
 ## Sesiones
-1,4, 8 y 10 de Abril 2019
+16 al 19 de Diciembre de 2019
 
 ![raspberry](./images/logoRasp.png)
 
