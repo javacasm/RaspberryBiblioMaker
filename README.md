@@ -92,7 +92,7 @@ diferentes fines.
 1. Montajes
 	1. [Electrónica](./contenidos/electronica.md) ([Introducción a la electrónica](./contenidos/introElectronica.pdf)  )
 	1. [Encendiendo leds](./contenidos/leds.md)
-	1. [Con arduino](./contenidos/ConectandoArduino-.pdf)
+	1. [Conexión con arduino](./contenidos/ConectandoArduino-.pdf)
 	1. [Complementos](./contenidos/complementos.md)
 
 1. [Documentacion](./contenidos/documentacion.md)
