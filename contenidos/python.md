@@ -121,4 +121,8 @@ Veamos una implementación de un programa más elaborado como "Piedra, Papel o T
 
 Podéis descargar el código para python 2.x ó 3.x de [aquí](https://www.lawebdelprogramador.com/codigo/Python/3748-Juego-de-piedra-papel-o-tijera.html)
 
-## Usando módulos librerías
+## Usando módulos/librerías
+
+Podemos usar módulos/librerías para hacer proyectos más complejos
+
+* [Bot de Telegram](./BotTelegram.md)
