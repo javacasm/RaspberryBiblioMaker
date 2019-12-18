@@ -17,8 +17,7 @@ Es un lenguaje moderno de gran productividad, sencillo, potente y con millones d
 
 Se utiliza en la web, en aplicaciones de escritorio, etc... Gran parte del interface de linux lo utiliza
 
-Existen dos versiones de python ahora mismo: la rama 2.x y la 3.x
-Por sencillez vamos a usar la sintaxis de la rama 2.x
+Existen dos versiones de python ahora mismo: la rama 2.x y la 3.x La versión 2.x está en desuso y se debería usar la 3.x, si bien es cierto que existe mucho código 2.x y conviene al menos saber que éxiste y algunas de las diferencias.
 
 Podemos utilizar la herramienta Idle o python directamente para programar con él.
 
@@ -107,10 +106,12 @@ print 'Se encontrado '+str(contador)+' veces';
 
 ### Diccionarios que nos permitirán relacionar contenidos
 
+Un diccionario nos permite almacenar pares etiqueta&valor de forma muy sencilla trabajando en modo interactivo
+
 Podemos introducir estas líneas en idle (las que empiezan por >>>)
 
-
 ![Usando Diccionarios](./images/diccionarios.png)
+
 
 ### Programa complejo
 
@@ -118,36 +119,6 @@ Veamos una implementación de un programa más elaborado como "Piedra, Papel o T
 
 ![Ejemplo de piedra, papel o tijera](./images/PPT.png)
 
+Podéis descargar el código para python 2.x ó 3.x de [aquí](https://www.lawebdelprogramador.com/codigo/Python/3748-Juego-de-piedra-papel-o-tijera.html)
 
-Es un lenguaje moderno de gran productividad, sencillo, potente y con millones de líneas ya desarrolladas que se pueden usar directamente por medio de paquetes instalables
-
-Se utiliza en la web, en aplicaciones de escritorio, etc... Gran parte del interface de linux lo utiliza
-
-
-Podemos utilizar la herramiente Idle o python directamente para programar con él.
-
-![idle](./imagenes/idle.png)
-
-Veamos algunos ejemplos
-
-* Operaciones numéricas y petición de datos al usuario
-
-![suma](./imagenes/suma.png)
-
-* Sentencias de control condicionales
-
-![bisiesto](./imagenes/bisiesto.png)
-
-![diasMes](./imagenes/diasMes.png)
-
-* Sentencias de control de repetición
-
-![busca](./imagenes/buscaCaracter.png)
-
-* Diccionarios que nos permitirán relacionar contenidos
-
-![dict](./imagenes/diccionarios.png)
-
-* Veamos una implementación de un programa más elaborado como "Piedra, Papel o Tijera"
-
-![PPT](./imagenes/PPT.png)
+## Usando módulos librerías
