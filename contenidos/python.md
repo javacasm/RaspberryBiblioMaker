@@ -38,7 +38,7 @@ Veamos algunos ejemplos
 # Programa que realiza la suma de dos valores
 a=input('numero 1');
 b=input('numero 2');
-suma = a + b;
+suma = int(a) + int(b);
 print (suma);
 ```
 
@@ -56,6 +56,69 @@ if ((year%400)==0  or (year % 100) ==0 or (year%4)==0):
 else:
   print 'No es bisiesto!!';
 ```
+
+Vamos a unir las dos cosas, sentencias condicionales en una calculadora
+
+[Calculadora v1](../codigo/python/calculadora.py)
+
+```python
+
+a = input("Dime el primero numero: ")
+b = input("Dime el segundo numero: ")
+operacion = input("Dime la operacion (+-/*) ")
+if operacion == "+" :
+    c = int(a) + int(b)
+    print("La suma es " + str(c) )
+elif operacion == "-" :
+    c = int(a) - int(b)
+    print("La diferencia es " + str(c) )
+elif operacion == "/" :
+    c = int(a) / int(b)
+    print("La division es " + str(c) )
+elif operacion == "*" :
+    c = int(a) * int(b)
+    print("El producto es " + str(c) )
+else :
+    print("Sólo se calcular +-/*")
+
+```
+Y una versión más compleja donde decidimos si queremos salir
+
+[Calculadora v2](../codigo/python/calculadorav2.py)
+
+```python
+# Programa que se comportacomo una calculadora
+"""
+Curso de raspberry Pi
+
+by Darwin Eventur
+Diciembre 2019
+Licencia CC
+"""
+repetir = True  # Variable para decidir si se repite
+while repetir == True:
+    a = input("Dime el primero numero: ")
+    b = input("Dime el segundo numero: ")
+    operacion = input("Dime la operacion (+-/*) ")
+    if operacion == "+" :
+        c = int(a) + int(b)
+        print("La suma es " + str(c) )
+    elif operacion == "-" :
+        c = int(a) - int(b)
+        print("La diferencia es " + str(c) )
+    elif operacion == "/" :
+        c = int(a) / int(b)
+        print("La division es " + str(c) )
+    elif operacion == "*" :
+        c = int(a) * int(b)
+        print("El producto es " + str(c) )
+    else :
+        print("Sólo sé calcular +-/*")
+    quiereRepetir = input("¿Quieres hacer más operaciones"?)
+    if quiereRepetir != "S" and quiereRepetir !== "Si" :
+        repetir = False
+```
+
 
 [Código de días por mes](./codigo/diasMes.py)
 
