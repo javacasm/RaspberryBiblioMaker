@@ -14,6 +14,30 @@ Diciembre 2019
 
 Los scripts son ficheros donde colocamos distintas órdenes que se irán realizando de forma consecutiva una tras otra
 
+## Ejemplo sencillo de copia de seguridad
+
+Usamos cualquier editor de texto (por ejemplo **mousepad**) para añadir las lineas que ya hemos probrado en un terminal y las copiamos desde la salida del comando **history**
+
+[copia de Seguridad](../codigo/copiaSeguridad.sh)
+
+```
+tar zcvf copiaSeguridad.tgz /home/pi/Documents/tesis
+cp copiaSeguridad.tgz /media/pi/USB
+echo "Copia finalizada"
+```
+Damos permiso de ejecución
+
+```
+chmod u+x copiaSeguridad.sh
+```
+y lo ejecutamos
+
+```
+./copiaSeguridad.sh
+```
+
+
+
 ## Usando la cámara
 
 ![camara](./imagenes/camara.jpg)
