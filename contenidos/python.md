@@ -196,9 +196,11 @@ Podemos usar módulos/librerías para hacer proyectos más complejos
 
 [Cursos sobre temas básicos de python](https://www.aprendeprogramando.es/cursos-online/python)
 
-
-
 [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)
+
+### Threads
+
+[Threading](https://realpython.com/courses/threading-python/)
 
 ### Diccionarios
 
