@@ -53,3 +53,9 @@ Para que los cambios se usen haremos
 sudo service networking stop 
 sudo wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
 ```
+
+[Tutorial sobre eduroam](https://autottblog.wordpress.com/raspberry-pi-arduino/connecting-raspberry-pi-to-eduroam/)
+
+## Creando un hotspot
+
+[Creando un Hotspot con Raspberry](https://descubrearduino.com/raspberry-pi-como-punto-de-acceso-inalambrico/)
