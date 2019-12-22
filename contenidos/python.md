@@ -189,3 +189,18 @@ Podéis descargar el código para python 2.x ó 3.x de [aquí](https://www.laweb
 Podemos usar módulos/librerías para hacer proyectos más complejos
 
 * [Bot de Telegram](./BotTelegram.md)
+
+## Recursos
+
+[Curso básico de python by Alfredo Sanchez](https://www.educoteca.com/curso_python.html)
+
+[Cursos sobre temas básicos de python](https://www.aprendeprogramando.es/cursos-online/python)
+
+
+
+[The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)
+
+### Diccionarios
+
+[Uso de diccionarios](https://realpython.com/python-dicts/)
+[Moviéndonos por diccionarios](https://realpython.com/iterate-through-dictionary-python/)
